@@ -14,5 +14,14 @@ module.exports = function(defaults) {
     behave. You most likely want to be modifying `./index.js` or app's build file
   */
 
+  app.import('vendor/flat-flags/css/main.css');
+  app.import('vendor/flat-flags/images/sprites/flags-16.png', {
+    destDir: 'images/sprites'
+  });
+
+  app.import('vendor/flat-flags/images/sprites/flags-47.png', {
+    destDir: 'images/sprites'
+  });
+
   return app.toTree();
 };
