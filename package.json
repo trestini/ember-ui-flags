@@ -1,15 +1,17 @@
 {
   "name": "ember-ui-flags",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Ember addon for easily display world flags",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trestini/ember-ui-flags.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "trestini@gmail.com",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -54,5 +56,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/trestini/ember-ui-flags/issues"
+  },
+  "homepage": "https://github.com/trestini/ember-ui-flags#readme"
 }
