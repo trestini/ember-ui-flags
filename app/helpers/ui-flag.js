@@ -1,1 +1,1 @@
-export { default, uiFlag } from 'ember-flat-flags/helpers/ui-flag';
+export { default, uiFlag } from 'ember-ui-flags/helpers/ui-flag';
